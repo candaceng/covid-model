@@ -27,10 +27,45 @@ body{color:#3700FF;text-align:center;}
 	left: 10px;
 	margin-bottom:25px;
 }
-#heading-name {
+#user-name {
 	position: absolute;
 	top: 135px;
 	left: 10px;
+	font-family: Cambria;
+}
+#credits {
+	position: absolute;
+	top: 25px;
+	right: 10px;
+	font-family: 'Source Code Pro', monospace;
+	color: white;
+	font-size:0.8125rem
+}
+
+/* Walkthrough Page */
+.container {
+	overflow: auto;
+}
+.walkthrough {
+	font-family: Cambria;
+	color: black;
+	margin: 20px 150px;
+	text-align: left;
+}
+#center {
+	text-align: center;
+	margin: 50px 50px;
+}
+#variable {
+	color: #3700FF;
+}
+a:link {
+	color: #3700FF;
+	text-decoration: underline;
+	text-decoration: bold;
+}
+a:hover {
+	color: red;
 }
 
 /* Scaffolding */
