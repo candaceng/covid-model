@@ -1,68 +1,21 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Problem
+We hear the phrase "flatten the curve" a lot, but what does that really mean? The goal of this project is to educate others on the "curve" in question using a mathematical model commonly used in epidemiology. A clear understanding and visualization of the issue will help individuals understand why they should take the protective measures (e.g. self isolating). 
 
-## Available Scripts
+## What it does
+It keeps the public informed on key points to stay safe during this tough time:
+- the application is decentralized (does not require third party sign in) making it secure and protective of your privacy
+- demonstrates the curve that the media is talking about and the reasoning for flattening it
+- encourages key preventative methods anyone can take to slow the spread of the virus
+- is a fun little activity for those who are quarantined at home
 
-In the project directory, you can run:
+## Skills
+I created the application using **Blockstack**, a decentralized computer network. Users must create a Blockstack ID to log in. **Node.js**, **Javascript**, and the **React** framework was used to support the back-end while the front-end was created with **HTML** and **CSS**. 
 
-### `npm start`
+## Challenges I ran into
+When I started this project, I had no idea what decentralized applications were. I had to spend a significant amount of time digging through tutorials on the many aspects of my app, on both the front-end and back-end. The biggest challenge was learning everything from scratch and interpreting all the code behind large scale web applications. Online tutorials and Hack Quarantine workshops helped me understand the connection of how React works together with Javascript, HTML, and CSS simplify web development. 
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## What I learned
+I did majority of my research through Hack Quarantine workshops and Blockstack tutorials. Through this, I was able to understand the concept of decentralized applications and its importance in securing personal data. I also learnt how to use Node.js and React, and was able to further develop my skills in Javascript, HTML, and CSS. 
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## What's next?
+The site could include an interactive graph that users can play around with and create their own models. There are also many other insightful videos on mathematical interpretations of the Covid-19 virus that could be explored as well. 
